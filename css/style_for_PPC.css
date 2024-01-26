@@ -50,14 +50,24 @@
 .Card-Name{
     display: flex;
     flex-direction: row;
+    margin: 2px;
 }
 
 .circle{
-    width: 10px;
-    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-left: 7px;
+
 }
 
 body{
     background-color: black;
+}
+
+h3{
+    font-size: 15px;
+    line-height: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
